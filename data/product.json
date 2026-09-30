@@ -1,20 +1,32 @@
 {
-  "name": "The Everyday Essential",
-  "tagline": "Connect CJdropshipping in .env, research a product, approve it, and this storefront updates automatically.",
-  "description": "This is the launch placeholder. From the admin control room, run recent product research and approve a candidate. buyanything will search CJdropshipping, import a matching supplier product and fulfillment identifiers, create polished storefront copy, and make it ready for Stripe checkout.",
-  "price": 29.99,
-  "compare_at": 39.99,
+  "name": "Automatic Pet Feeder Smart Food Dispenser For Cats Dogs Timer Stainless Steel Bowl Auto Dog Cat Pet Feeding Pets Supplies",
+  "tagline": "Effortless Feeding for Your Furry Friends",
+  "description": "Introducing the Automatic Pet Feeder Smart Food Dispenser, perfect for busy pet owners. Available in single and double meal options, this innovative feeder features a gravity system that allows for a steady supply of food without the need for electricity. With a stylish stainless steel bowl and a capacity for a gallon of water, it keeps your pets nourished and hydrated effortlessly. Choose from elegant pink or gray to fit your home decor.",
+  "price": 54.5,
+  "compare_at": 69.77,
   "currency": "usd",
-  "image": "",
-  "images": [],
+  "image": "https://cf.cjdropshipping.com/a9f123ec-8d15-4318-9b0f-47873ee51a88.png",
+  "images": [
+    "https://cf.cjdropshipping.com/fd8d9da1-7b88-41ad-8a63-ae14fe80e619.jpg",
+    "https://cf.cjdropshipping.com/16696aea-68f2-4af6-a99c-cd83555ebdbb.png",
+    "https://cf.cjdropshipping.com/878e167d-2b83-4a5c-935d-18ab6e2db13d.png",
+    "https://cf.cjdropshipping.com/ffbd04d4-f4f5-47ab-92e8-52b331cb69fe.jpg",
+    "https://cf.cjdropshipping.com/2515f5ff-98c5-4808-a375-3f1b3f586cd0.jpg",
+    "https://cf.cjdropshipping.com/bafc235c-13e1-4646-8c7d-7c263c0cb814.jpg"
+  ],
   "benefits": [
-    "One focused product story",
-    "Secure Stripe checkout",
-    "CJdropshipping fulfillment workflow"
+    "Convenient, electricity-free operation",
+    "Stylish design in two appealing colors",
+    "Generous capacity for food and water"
   ],
   "supplier": "CJdropshipping",
-  "cj_pid": "",
-  "cj_vid": "",
-  "cj_sku": "",
-  "cj_variant_sku": ""
+  "supplier_url": "https://cjdropshipping.com/product/1602564551227224064.html",
+  "supplier_cost": 5.73,
+  "cj_pid": "1602564551227224064",
+  "cj_sku": "CJMY1636996",
+  "cj_vid": "1602564551311110144",
+  "cj_variant_sku": "CJMY163699601AZ",
+  "cj_variant_name": "Grey-Single meal",
+  "cj_listed_num": 19114,
+  "source_note": "Product data and fulfillment identifiers imported from CJdropshipping API. Retail copy is admin-approved."
 }

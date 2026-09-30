@@ -1,0 +1,73 @@
+{% extends 'base.html' %}{% block title %}Checkout · buyanything{% endblock %}{%
+block body %}
+<section class="checkout-page">
+  <div class="container narrow">
+    <div class="checkout-card">
+      <div class="eyebrow"><i></i> SECURE CHECKOUT</div>
+      <h1>Make it yours.</h1>
+      <p class="lead">A product - One step at checkout.</p>
+      <div class="order-row">
+        <img
+          src="{{p.image or url_for('static',filename='img/placeholder.svg')}}"
+        />
+        <div>
+          <b>{{p.name}}</b>
+          <p>{{p.tagline}}</p>
+          <small id="qty-label">Qty {{quantity}}</small>
+        </div>
+        <strong id="line-total">${{'%.2f'|format(p.price * quantity)}}</strong>
+      </div>
+      <form method="post" action="/create-checkout-session" id="checkout-form">
+        <div class="quantity-row">
+          <span>Quantity</span>
+          <div class="quantity-control" aria-label="Product quantity">
+            <button
+              type="button"
+              class="qty-btn"
+              data-step="-1"
+              aria-label="Decrease quantity"
+            >
+              −</button
+            ><input
+              id="quantity"
+              name="quantity"
+              type="number"
+              min="1"
+              max="20"
+              value="{{quantity}}"
+              inputmode="numeric"
+              aria-label="Quantity"
+            /><button
+              type="button"
+              class="qty-btn"
+              data-step="1"
+              aria-label="Increase quantity"
+            >
+              +
+            </button>
+          </div>
+        </div>
+        <div class="total-row">
+          <span>Total</span
+          ><b
+            ><span id="checkout-total"
+              >${{'%.2f'|format(p.price * quantity)}}</span
+            >
+            <small>USD</small></b
+          >
+        </div>
+        <button class="btn btn-brown btn-lg w-100">
+          Continue to secure payment →
+        </button>
+      </form>
+      <div class="secure-note">
+        ◈ Payment and shipping details are collected securely by Stripe. We
+        never store your card number.
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  window.BUYANYTHING_UNIT_PRICE= {{ p.price|tojson}} ;
+</script>
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends 'base.html' %}{% block title %}{{p.name}} · buyanything {% endblock
+%}{% block body %}
+<section class="product-page">
+  <div class="container">
+    <div class="row g-5 align-items-start">
+      <div class="col-lg-7">
+        <div class="gallery-main">
+          <img
+            src="{{p.image or url_for('static',filename='img/placeholder.svg')}}"
+            alt="{{p.name}}"
+          />
+        </div>
+        {% if p.images and p.images|length>1 %}
+        <div class="thumbs">
+          {% for img in p.images[:4] %}<button
+            class="thumb {% if loop.first %}active{% endif %}"
+            data-image="{{img}}"
+          >
+            <img src="{{img}}" /></button
+          >{% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      <div class="col-lg-5 sticky-detail">
+        <div class="eyebrow"><i></i> BUYANYTHING SELECT</div>
+        <h1 class="product-title">{{p.name}}</h1>
+        <p class="lead">{{p.tagline}}</p>
+        <div class="price">
+          <span>${{'%.2f'|format(p.price)}}</span>{% if p.compare_at
+          %}<del>${{'%.2f'|format(p.compare_at)}}</del>{% endif %}
+        </div>
+        <div class="divider"></div>
+        <p class="description">{{p.description}}</p>
+        <ul class="clean-list">
+          {% for b in p.benefits %}
+          <li><b>✓</b><span>{{b}}</span></li>
+          {% endfor %}
+        </ul>
+        <a class="btn btn-brown btn-lg w-100" href="/purchase"
+          >Purchase securely →</a
+        >
+        <div class="checkout-notes">
+          <span>Secure Stripe checkout</span
+          ><span>Fulfilled through our supplier network</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

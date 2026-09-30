@@ -1,0 +1,7 @@
+Flask
+python-dotenv
+openai
+stripe
+requests
+beautifulsoup4
+gunicorn

@@ -34,10 +34,10 @@ def research_trending_products():
 
 def _margin_price(cost):
     try:
-        cost = float(str(cost).split("-")[1])
+        cost = float(str(cost).split("-")[0])
     except:
         cost = 10
-    return round((cost * 2.45) + 30, 2)
+    return round((cost * 2.45) + 24, 2)
 
 
 def build_product(candidate):

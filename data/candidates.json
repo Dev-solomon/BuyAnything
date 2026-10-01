@@ -1,32 +1,32 @@
 [
   {
-    "name": "Personalized Dog Treat Jar",
-    "reason": "High demand on Etsy with 48,249 favorites and 34,572 views in the last 30 days, indicating strong consumer interest in customized pet products. ([podkon.com](https://podkon.com/top-etsy-products/last-30-days/physical?utm_source=openai))",
+    "name": "Comfort Mats",
+    "reason": "Comfort mats have gained popularity due to their ergonomic benefits and appeal during the cozy season. ([brandsearch.co](https://brandsearch.co/blog/top-100-products-sept-2025?utm_source=openai))",
     "trend_score": 85,
-    "supplier_search_query": "personalized dog treat jar"
+    "supplier_search_query": "comfort mats"
   },
   {
-    "name": "With Great Beard Comes Great Responsibility T-shirt",
-    "reason": "Popular on Etsy with 13,726 favorites and 11,662 views in the last 30 days, reflecting a trend in humorous and personalized apparel. ([podkon.com](https://podkon.com/top-etsy-products/last-30-days/physical?utm_source=openai))",
+    "name": "Vacuum Bottles",
+    "reason": "Durable vacuum bottles have seen a surge in demand, driven by trends in hydration and gifting. ([brandsearch.co](https://brandsearch.co/blog/top-100-products-sept-2025?utm_source=openai))",
     "trend_score": 80,
-    "supplier_search_query": "funny beard t-shirt"
+    "supplier_search_query": "vacuum bottles"
   },
   {
-    "name": "Personalized Birthday Ceramic Platter",
-    "reason": "High demand on Etsy with 21,174 favorites and 38,643 views in the last 30 days, indicating a trend in personalized home decor items. ([podkon.com](https://podkon.com/top-etsy-products/last-30-days/physical?utm_source=openai))",
-    "trend_score": 90,
-    "supplier_search_query": "personalized ceramic platter"
-  },
-  {
-    "name": "Awesome Dad T-shirt",
-    "reason": "Popular on Etsy with 23,157 favorites and 45,650 views in the last 30 days, reflecting a trend in humorous and personalized apparel for fathers. ([podkon.com](https://podkon.com/top-etsy-products/last-30-days/physical?utm_source=openai))",
+    "name": "Puffer Jackets",
+    "reason": "Puffer jackets have experienced a significant increase in sales, indicating strong consumer interest. ([shopify.com](https://www.shopify.com/blog/trending-products?utm_source=openai))",
     "trend_score": 75,
-    "supplier_search_query": "funny dad t-shirt"
+    "supplier_search_query": "puffer jackets"
   },
   {
-    "name": "LED Disco Flying Balls",
-    "reason": "Trending in October 2023, indicating a rise in demand for interactive and entertaining gadgets. ([ppspy.com](https://www.ppspy.com/shopify/trending-products-to-sell-in-october-2023-5900?utm_source=openai))",
-    "trend_score": 80,
-    "supplier_search_query": "LED disco flying balls"
+    "name": "Electric Motorcycles and Scooters",
+    "reason": "Electric motorcycles and scooters have seen substantial growth, reflecting a shift towards eco-friendly transportation. ([shopify.com](https://www.shopify.com/blog/trending-products?utm_source=openai))",
+    "trend_score": 70,
+    "supplier_search_query": "electric motorcycles and scooters"
+  },
+  {
+    "name": "Satchel Bags",
+    "reason": "Satchel bags have experienced a notable increase in sales, indicating a resurgence in their popularity. ([shopify.com](https://www.shopify.com/blog/trending-products?utm_source=openai))",
+    "trend_score": 65,
+    "supplier_search_query": "satchel bags"
   }
 ]

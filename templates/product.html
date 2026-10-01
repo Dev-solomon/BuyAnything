@@ -24,10 +24,15 @@
       <div class="col-lg-5 sticky-detail">
         <div class="eyebrow"><i></i> BUYANYTHING SELECT</div>
         <h1 class="product-title">{{p.name}}</h1>
-        <p class="lead">{{p.tagline}}</p>
+        <p class="lead">{{p.tagline}}</p> 
         <div class="price">
           <span>${{'%.2f'|format(p.price)}}</span>{% if p.compare_at
           %}<del>${{'%.2f'|format(p.compare_at)}}</del>{% endif %}
+
+          <div class="product-reviews">
+            <span class="review-stars">★★★★<span class="half-star">★</span></span>
+            <span class="review-count">4.5 · 892+ reviews</span>
+          </div>
         </div>
         <div class="divider"></div>
         <p class="description">{{p.description}}</p>

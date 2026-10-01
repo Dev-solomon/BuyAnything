@@ -37,7 +37,7 @@ def _margin_price(cost):
         cost = float(str(cost).split("-")[0])
     except:
         cost = 10
-    return round((cost * 2.45) + 24, 2)
+    return round((cost * 3) + 16, 2)
 
 
 def build_product(candidate):
